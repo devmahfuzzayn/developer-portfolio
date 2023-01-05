@@ -132,7 +132,6 @@ section{
     font-size: 18px;
     margin-bottom: 30px;
     text-align: center;
-    box-shadow: 0 -16px teal;
 }
 
 /* About Table Styling */
@@ -266,6 +265,10 @@ table th {
     font-size: 16px;
     text-align: left;
     color: #474747;
+}
+
+.contact form textarea {
+    resize: none;
 }
 
 .contact input[type="text"], input[type="email"], textarea {
